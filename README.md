@@ -23,7 +23,7 @@ The analysis utilizes three interconnected datasets representing TechElectro's c
 
 # Database Schema
 
-## Table 1: Sales Data (15,847 transaction records across 1,258 unique products over 667 days)
+#### Table 1: Sales Data (15,847 transaction records across 1,258 unique products over 667 days)
 
 | Column Name              | Key         | Data Type | Description                                      |
 |---------------------------|-------------|-----------|--------------------------------------------------|
@@ -34,7 +34,7 @@ The analysis utilizes three interconnected datasets representing TechElectro's c
 
 ---
 
-## Table 2: Product Information Data (Complete product catalog with category classifications and promotion status)
+#### Table 2: Product Information Data (Complete product catalog with category classifications and promotion status)
 
 | Column Name      | Key          | Data Type | Description                                |
 |------------------|--------------|-----------|--------------------------------------------|
@@ -44,7 +44,7 @@ The analysis utilizes three interconnected datasets representing TechElectro's c
 
 ---
 
-## Table 3: External Information Data (Daily economic indicators including GDP, inflation rates, and seasonal adjustment factors)
+#### Table 3: External Information Data (Daily economic indicators including GDP, inflation rates, and seasonal adjustment factors)
 
 | Column Name      | Key         | Data Type | Description                                          |
 |------------------|-------------|-----------|------------------------------------------------------|
@@ -55,7 +55,7 @@ The analysis utilizes three interconnected datasets representing TechElectro's c
 
 The integrated dataset enables comprehensive analysis of inventory performance across customer demographics (regional/currency variations), product characteristics (categories/pricing), and temporal patterns (seasonal/economic cycles).
 
-### Tools Used:
+#### Tools Used:
 
 - MySQL 8.0 for data integration and analysis
 - SQL window functions for rolling average calculations
